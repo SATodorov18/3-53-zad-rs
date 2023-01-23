@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Links</title>
+</head>
+<body>
+<h1>Links to pages</h1>
+<ul>
+    <li><a th:href="@{/numbers(n=20)}">a)</a></li>
+    <li><a th:href="@{/sum-numbers(n=20)}">b)</a></li>
+    <li><a th:href="@{/words(word='Hello',n=5)}">v)</a></li>
+</ul>
+</body>
+</html>
